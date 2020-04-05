@@ -1,5 +1,5 @@
 {
-  "name": "nhs-login-help-centre",
+  "name": "login-help",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,20 +7,20 @@
     "lint": "prettier --check \"*/**.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "eleventy",
-    "deploy": "eleventy --pathprefix /nhs-help-centre/",
+    "deploy": "eleventy --pathprefix /login-help/",
     "watch": "eleventy --watch",
     "start": "eleventy --serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NHSDigital/nhs-login-help-centre.git"
+    "url": "git+https://isleigh.github.io/login-help.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NHSDigital/nhs-login-help-centre/issues"
+    "url": "https://isleigh.github.io/login-help/issues"
   },
-  "homepage": "https://github.com/NHSDigital/nhs-login-help-centre",
+  "homepage": "https://isleigh.github.io/login-help",
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
     "cheerio": "^1.0.0-rc.3",
